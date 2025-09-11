@@ -1,5 +1,7 @@
-import express from "express";
-import Report from "../models/Report.js";
+import multer from "multer";
+import fs from "fs";
+import exifParser from "exif-parser";
+import path from "path";
 
 const router = express.Router();
 
